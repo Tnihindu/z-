@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Executive Protection - Z+ Secure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Z+ SECURE</div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="auth.html" class="btn">LOGIN / SIGNUP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Order Executive Protection Detail</h1>
+        <p>Please provide the details of your protection requirement. A specialist will review your confidential request and contact you within 4 hours.</p>
+
+        <form action="#" method="POST">
+            <label for="client_name">Client Name (Optional)</label>
+            <input type="text" id="client_name" name="client_name">
+
+            <label for="duration">Required Duration (Days)</label>
+            <input type="number" id="duration" name="duration" required min="1">
+            
+            <label for="start_date">Start Date</label>
+            <input type="date" id="start_date" name="start_date" required>
+            
+            <label for="location">Primary Location / Country</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="details">Scope of Protection Required</label>
+            <textarea id="details" name="details" rows="5" placeholder="Specify if armed/unarmed, number of agents, and type of detail (e.g., family security, business travel escort)." required></textarea>
+
+            <button type="submit" class="btn">SUBMIT ORDER REQUEST</button>
+        </form>
+    </main>
+
+    
+    
+    <script src="script.js"></script>
+    ```
+
+These pages now provide the necessary front-end structure for your online order system. Remember, integrating the submission of these forms requires the backend code (`server.js`) to be updated to handle the incoming data and save it (or send an email).
+
+Would you like to continue building out the functionality, such as how to handle the submission of these new order forms in your **Node.js server**?
+
+    <footer>
+        &copy; 2025 Z+ Secure. All Rights Reserved.
+    </footer>
+</body>
+</html>

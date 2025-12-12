@@ -1,0 +1,163 @@
+/* public/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001540e5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 15px 0;
+    border-bottom: 5px solid #ffcc00; /* Z+ Secure Accent */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* --- Main Content --- */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: #1a1a1a;
+}
+
+h1, h2 {
+    color: #a19e9e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* --- Buttons & Forms --- */
+.btn {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Specific styles for auth page */
+.auth-form-container {
+    max-width: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.personal-protection {
+    border: #1a1a1a;
+    border-radius: 8px;
+}
+/* public/style.css (ADD THESE STYLES) */
+
+.service-card {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #ffcc00; /* Z+ Secure Accent */
+    padding-bottom: 8px;
+}
+
+.order-btn {
+    margin-top: 15px;
+    background-color: #333; /* Darker background for distinction */
+    color: #ffcc00;
+}
+
+.order-btn:hover {
+    background-color: #1a1a1a;
+    color: white;
+}

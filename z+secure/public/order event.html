@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Executive Protection - Z+ Secure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Z+ SECURE</div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="auth.html" class="btn">LOGIN / SIGNUP</a></li>
+            </ul>
+        </nav>
+    </header>
+    ### C. `order_event.html` (Event Security Order)
+
+```html
+<main class="container">
+        <h1>Book Special Event Security</h1>
+        <p>Secure your corporate function, private party, or public appearance. Provide event details below for a tailored quote.</p>
+
+        <form action="#" method="POST">
+            <label for="event_name">Event Name/Type</label>
+            <input type="text" id="event_name" name="event_name" required>
+
+            <label for="date">Event Date</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="attendees">Estimated Number of Attendees</label>
+            <input type="number" id="attendees" name="attendees" required min="10">
+            
+            <label for="location_event">Event Venue Location</label>
+            <input type="text" id="location_event" name="location_event" required>
+
+            <label for="needs">Specific Security Needs</label>
+            <textarea id="needs" name="needs" rows="5" placeholder="e.g., Access control, VIP escort, crowd management, armed personnel." required></textarea>
+
+            <button type="submit" class="btn">SUBMIT EVENT BOOKING</button>
+        </form>
+    </main>
+
+    
+    <script src="script.js"></script>
+    <footer>
+        &copy; 2025 Z+ Secure. All Rights Reserved.
+    </footer>
+</body>
+</html>
+    ```
+
+These pages now provide the necessary front-end structure for your online order system. Remember, integrating the submission of these forms requires the backend code (`server.js`) to be updated to handle the incoming data and save it (or send an email).
+
+Would you like to continue building out the functionality, such as how to handle the submission of these new order forms in your **Node.js server**?
